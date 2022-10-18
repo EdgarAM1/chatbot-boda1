@@ -1,0 +1,55 @@
+{
+    "message": {
+        "attachment": {
+            "type": "template",
+            "payload": {
+                "template_type": "generic",
+                "elements": [
+                    {
+                        "title": "Historias de vida",
+                        "image_url": "https://scontent.fmex10-3.fna.fbcdn.net/v/t1.6435-9/142845228_4961912767216749_4366815451633995850_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=a26aad&_nc_ohc=CxP2av3uJD0AX8PJjIp&_nc_ht=scontent.fmex10-3.fna&oh=00_AT9jOHzQvkiLxsJq-ZEUOGcln2IK3XvgQoZUy-Hz7MeUUA&oe=63739841",
+                        "subtitle": "Foto y video para bodas",
+                        "buttons": [
+                            {
+                                "type": "web_url",
+                                "url": "https://historiasdevida.myportfolio.com",
+                                "title": "Ver sitio web"
+                            },
+                            {
+                                "type": "web_url",
+                                "url": "https://drive.google.com/file/d/12bDW5mfULXFhjwgBBrlTTlDab9LfH06G/view",
+                                "title": "Precios"
+                            },
+                            {
+                                "type": "postback",
+                                "title": " Chatear",
+                                "payload": "USER_DEFINED_PAYLOAD"
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        "quick_replies": [
+            {
+                "content_type": "text",
+                "title": "Paquete foto y video",
+                "payload": "reply1"
+            },
+            {
+                "content_type": "text",
+                "title": "Solo video",
+                "payload": "reply2"
+            },
+            {
+                "content_type": "text",
+                "title": "Solo foto",
+                "payload": {
+                    "message": {
+                        "text": "hello, world!"
+                    }
+                }
+            }
+        ]
+    }
+}
